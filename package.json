@@ -1,0 +1,16 @@
+{
+  "name": "gh-trending-lang",
+  "version": "1.0.0",
+  "description": "A REST microservice that list the languages used by the 100 trending public repos on GitHub",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "eoamegassi",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "moment": "^2.27.0"
+  }
+}
